@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+
+[packages]
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+scipy = "*"
+seaborn = "*"
+sklearn = "*"
+tensorboard = "*"
+torch = "*"
+tqdm = "*"
+tokenizers = "*"
+ckip-transformers = "*"
+
+[requires]
+python_version = "3.8"
+
